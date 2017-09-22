@@ -11,18 +11,19 @@ header {
 }
 
 article {
-    background: #fff;
-    width: 800px;
+    width: 40%;
     padding: 20px 40px;
-    margin: 20px auto;
+    margin-left: 5%;
+    float: left;
 }
 
 h2 {
     text-align: center;
 }
 
-body > section > p {
-    text-align: center;
+body > section > div > p {
+    margin-left: 5%;
+
 }
 
 img {
@@ -36,6 +37,16 @@ footer {
     color: #fff;
 }
 
+div {
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+}
+
+section {
+  overflow: auto;
+  width: 100%;
+}
 #cougar {
     background: #b26219;
 }
